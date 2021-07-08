@@ -33,7 +33,7 @@ public class MainController {
 	}
 	
 	@GetMapping("/id/{id}")
-	public ResponseEntity<List<Citizen>> getCitizen1(@PathVariable Integer id){
+	public ResponseEntity<List<Citizen>> getCitizen122(@PathVariable Integer id){
 
 	List<Citizen> list=	citizenRepo.findByVaccinationCenterId(id);
 
